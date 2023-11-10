@@ -12,7 +12,7 @@ public class SpinFree : MonoBehaviour {
 	public float speed = 10f;
 
 	[HideInInspector]
-	public bool clockwise = true;
+	public bool clockwise = false;
 	[HideInInspector]
 	public float direction = 1f;
 	[HideInInspector]
