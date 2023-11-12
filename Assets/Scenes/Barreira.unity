@@ -260,13 +260,14 @@ GameObject:
   - component: {fileID: 208702577}
   - component: {fileID: 208702580}
   - component: {fileID: 208702581}
+  - component: {fileID: 208702582}
   m_Layer: 0
   m_Name: Planeta 3
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &208702576
 RectTransform:
   m_ObjectHideFlags: 0
@@ -420,6 +421,18 @@ MonoBehaviour:
   onXRPointerExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &208702582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208702575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab346383cb03b764abbe6dc3bcd10a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &228505145
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,6 +662,7 @@ GameObject:
   - component: {fileID: 339353579}
   - component: {fileID: 339353582}
   - component: {fileID: 339353583}
+  - component: {fileID: 339353584}
   m_Layer: 0
   m_Name: Planeta 1
   m_TagString: Interactable
@@ -673,7 +687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.63}
+  m_AnchoredPosition: {x: 0, y: 0.98}
   m_SizeDelta: {x: 130, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &339353579
@@ -719,7 +733,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 339353580}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 339353584}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &339353580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -797,6 +823,18 @@ MonoBehaviour:
   onXRPointerExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &339353584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339353577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab346383cb03b764abbe6dc3bcd10a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &344029463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -920,7 +958,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Planeta 1 '
+  m_text: Terra
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2326,7 +2364,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Planeta 2
+  m_text: Saturno
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2858,7 +2896,7 @@ Transform:
   m_GameObject: {fileID: 1800920842}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.88044155, z: -0, w: 0.47415483}
-  m_LocalPosition: {x: 25.85, y: 2.18, z: 26.92}
+  m_LocalPosition: {x: 25.14, y: 2.18, z: 26.8}
   m_LocalScale: {x: 4.17, y: 4.17, z: 0.06255}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3296,6 +3334,7 @@ GameObject:
   - component: {fileID: 2032141979}
   - component: {fileID: 2032141982}
   - component: {fileID: 2032141983}
+  - component: {fileID: 2032141984}
   m_Layer: 0
   m_Name: Planeta 2
   m_TagString: Interactable
@@ -3320,7 +3359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -1.19}
   m_SizeDelta: {x: 130, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2032141979
@@ -3366,7 +3405,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2032141980}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2032141984}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2032141980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3444,6 +3495,18 @@ MonoBehaviour:
   onXRPointerExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2032141984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032141977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab346383cb03b764abbe6dc3bcd10a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2118365686
 GameObject:
   m_ObjectHideFlags: 0
