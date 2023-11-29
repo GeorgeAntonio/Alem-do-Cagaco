@@ -551,7 +551,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3480212425060615518, guid: 59f509a805a83a643855df02ee094379, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3480212425060615518, guid: 59f509a805a83a643855df02ee094379, type: 3}
+      propertyPath: UseCardboardSimulator
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4179292345050926428, guid: 59f509a805a83a643855df02ee094379, type: 3}
       propertyPath: m_text
