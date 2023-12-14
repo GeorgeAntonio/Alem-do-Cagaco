@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8959864664286279225}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -166,7 +165,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6438290065555936313}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -301,7 +299,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7757648313301441695}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -441,7 +438,6 @@ RectTransform:
   m_Children:
   - {fileID: 9133256574362610605}
   m_Father: {fileID: 8959864664286279225}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -577,10 +573,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onXRPointerEnter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9209931504325617961}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onXRPointerExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9209931504325617961}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &9209931504325617961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,7 +644,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5102674156951786276}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -764,7 +783,6 @@ RectTransform:
   m_Children:
   - {fileID: 4418640643373144995}
   m_Father: {fileID: 8959864664286279225}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -852,7 +870,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6175487021546988205}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4862561546004146171}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &4776024812759634127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -889,13 +919,13 @@ MonoBehaviour:
   onXRPointerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1250241919780784888}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 4862561546004146171}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -903,7 +933,19 @@ MonoBehaviour:
         m_CallState: 2
   onXRPointerExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4862561546004146171}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4862561546004146171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,7 +994,6 @@ RectTransform:
   m_Children:
   - {fileID: 3286607038426362233}
   m_Father: {fileID: 8959864664286279225}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1040,7 +1081,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1381294104967858902}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 418232010241853373}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &5858101684829820246
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1077,13 +1130,13 @@ MonoBehaviour:
   onXRPointerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1748115282718437707}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 418232010241853373}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1091,7 +1144,19 @@ MonoBehaviour:
         m_CallState: 2
   onXRPointerExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 418232010241853373}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &418232010241853373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1140,7 +1205,6 @@ RectTransform:
   m_Children:
   - {fileID: 2825138728713350302}
   m_Father: {fileID: 8959864664286279225}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1276,10 +1340,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onXRPointerEnter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1856380698719403511}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onXRPointerExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1856380698719403511}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1856380698719403511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1323,7 +1411,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 634699883928915870}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1358,7 +1445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Marte
+  m_text: Barreira
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1452,13 +1539,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6221626666460853288}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 7}
   m_LocalScale: {x: 0.2, y: 0.2, z: 11.111111}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3527044909344837287}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3236110879335765480
 MonoBehaviour:
@@ -1521,15 +1608,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6746968307745037135}
-  m_LocalRotation: {x: -0, y: 0.88044155, z: -0, w: 0.47415483}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.8804401, z: 0, w: 0.47415745}
   m_LocalPosition: {x: 26.27, y: 2.18, z: 26.05}
-  m_LocalScale: {x: 4.17, y: 4.17, z: 0.06255}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.006}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8959864664286279225}
   - {fileID: 2821146462884338181}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 123.391, z: 0}
 --- !u!33 &6956055036954135484
 MeshFilter:
@@ -1638,7 +1725,6 @@ RectTransform:
   m_Children:
   - {fileID: 7023029961997098937}
   m_Father: {fileID: 8959864664286279225}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1726,7 +1812,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4310292107239560533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3569814650944137513}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &1317101301152115449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1763,13 +1861,13 @@ MonoBehaviour:
   onXRPointerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5739725880326281364}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 3569814650944137513}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1777,7 +1875,19 @@ MonoBehaviour:
         m_CallState: 2
   onXRPointerExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3569814650944137513}
+        m_TargetAssemblyTypeName: PlanetSelection, Assembly-CSharp
+        m_MethodName: selectPlanet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3569814650944137513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1821,7 +1931,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 4428402110438094943}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1963,7 +2072,6 @@ RectTransform:
   - {fileID: 9042178517291353602}
   - {fileID: 7757648313301441695}
   m_Father: {fileID: 3527044909344837287}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0.3, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

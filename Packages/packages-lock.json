@@ -11,7 +11,7 @@
       "hash": "17e19f289a527844abc08404d0ef6e961927b2d6"
     },
     "com.unity.burst": {
-      "version": "1.8.4",
+      "version": "1.8.8",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -55,12 +55,12 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.ide.visualstudio": "2.0.18",
-        "com.unity.ide.rider": "3.0.21",
+        "com.unity.ide.rider": "3.0.24",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.2.2",
         "com.unity.test-framework": "1.1.33",
-        "com.unity.testtools.codecoverage": "1.2.3"
+        "com.unity.testtools.codecoverage": "1.2.4"
       }
     },
     "com.unity.ide.rider": {
@@ -177,7 +177,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -237,7 +237,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.3.3",
+      "version": "4.4.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
